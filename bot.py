@@ -51,7 +51,7 @@ def produto(update, context):
 
 # Crie o bot
 def main():
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TOKEN)
     updater.dispatcher.add_handler(CommandHandler("produto", produto))
     updater.start_polling()
     updater.idle()
