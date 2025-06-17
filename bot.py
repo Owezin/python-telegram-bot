@@ -5,6 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont
 
+port = int(os.environ.get("PORT", 10000))
+
 # Configurações do bot
 TOKEN = "8098294615:AAERsoEDOpj7WC-EdLZ9CMMoSzw9BusPFgk"
 
