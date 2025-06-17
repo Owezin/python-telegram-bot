@@ -5,7 +5,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import requests
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont
-
 port = int(os.environ.get("PORT", 10000))
 
 # Configurações do bot
