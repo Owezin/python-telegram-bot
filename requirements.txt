@@ -1,4 +1,5 @@
-python-telegram-bot
+flask
 requests
 beautifulsoup4
-pillow
+Pillow
+python-telegram-bot==20.3
